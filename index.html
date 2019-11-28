@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--BootStrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>To-Do App</title>
+</head>
+
+<body>
+    <div class="col text-center py-3">
+        <div id="date"></div>
+    </div>
+    <h1 class="text-center">TO DO LIST</h1>
+
+    <div class="col-10 divCentar py-3">
+    <button type="button" class="btn btn-primary float-right" id="clear">Clear</button>
+    </div>
+
+    <div class="toDoLista col-10 divCentar">
+        <ul id="list">
+        </ul>
+    </div>
+
+    <div class="dodaj col-10 divCentar">
+        <input type="text" class="form-control" id="input" placeholder="Add a to-do">
+        <i class="fa fa-plus-circle fa-2x float-right" id="add"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
